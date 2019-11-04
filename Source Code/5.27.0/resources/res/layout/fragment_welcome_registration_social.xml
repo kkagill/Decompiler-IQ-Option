@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@d/registerContainer" android:tag="layout/fragment_welcome_registration_social_0" android:background="@color/bg_second_level" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp56">
+            <ImageView android:id="@+id/backButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp4" app:srcCompat="@drawable/ic_arrow_back" style="@style/WelcomeBackButton"/>
+            <TextView android:id="@+id/title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/registration_mob" android:layout_weight="1" style="@style/WelcomeTitle"/>
+        </LinearLayout>
+        <FrameLayout android:id="@d/registerContentContainer" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:paddingStart="@dimen/registration_horizontal_inset" android:paddingEnd="@dimen/registration_horizontal_inset">
+                    <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <com.iqoption.core.ui.widget.rounded.RoundedImageView android:id="@d/socialIcon" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/dp10" app:corners="@b/registration_social_corners" app:layout_constraintEnd_toStartOf="@d/socialGoogleAvatar" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+                            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <com.iqoption.core.ui.widget.rounded.RoundedImageView android:id="@d/socialGoogleAvatar" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48" android:scaleType="centerCrop" app:corners="@b/registration_social_corners" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@d/socialIcon" app:layout_constraintTop_toTopOf="0"/>
+                                <com.iqoption.core.ui.widget.rounded.RoundedFrameLayout android:id="@d/socialFacebookAvatarContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cornerRadius="@b/registration_social_corners" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@d/socialIcon" app:layout_constraintTop_toTopOf="0">
+                                    <com.facebook.login.widget.ProfilePictureView android:id="@d/socialFacebookAvatar" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48"/>
+                                </com.iqoption.core.ui.widget.rounded.RoundedFrameLayout>
+                            </FrameLayout>
+                        </LinearLayout>
+                        <TextView android:textSize="@dimen/sp16" android:textColor="@color/white" android:gravity="center" android:id="@d/socialName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" android:fontFamily="@font/medium"/>
+                        <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="2"/>
+                        <include android:id="@d/welcomePolicy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp14" android:layout_marginEnd="@dimen/dp20" layout="@e/layout_welcome_policy"/>
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+                <include android:id="@d/layoutRegisterButton" layout="@e/layout_register_button"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

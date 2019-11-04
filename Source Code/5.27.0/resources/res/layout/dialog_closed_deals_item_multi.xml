@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:tag="layout/dialog_closed_deals_item_multi_0" android:background="@drawable/bg_deals_item" android:paddingLeft="@dimen/dp10" android:paddingRight="@dimen/dp10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/item1" android:paddingTop="@dimen/dp10" android:paddingBottom="@dimen/dp10" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/assetIcon1" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20"/>
+            <com.iqoption.view.RobotoTextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/assetName1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" android:layout_marginStart="@dimen/dp10"/>
+        </LinearLayout>
+        <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.iqoption.view.RobotoTextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/strike1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="@dimen/dp4" android:textAllCaps="true"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/invest1" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textAllCaps="true"/>
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/status1" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textAllCaps="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/item2" android:paddingBottom="@dimen/dp10" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/assetIcon2" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20"/>
+            <com.iqoption.view.RobotoTextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/assetName2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" android:layout_marginStart="@dimen/dp10"/>
+        </LinearLayout>
+        <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.iqoption.view.RobotoTextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/strike2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="@dimen/dp4" android:textAllCaps="true"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/invest2" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textAllCaps="true"/>
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/status2" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textAllCaps="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/item3" android:paddingBottom="@dimen/dp10" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/assetIcon3" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20"/>
+            <com.iqoption.view.RobotoTextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/assetName3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" android:layout_marginStart="@dimen/dp10"/>
+        </LinearLayout>
+        <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.iqoption.view.RobotoTextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/strike3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="@dimen/dp4" android:textAllCaps="true"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/invest3" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textAllCaps="true"/>
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/status3" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:textAllCaps="true"/>
+    </LinearLayout>
+</LinearLayout>

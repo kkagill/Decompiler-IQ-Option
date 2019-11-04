@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/left_panel_item_btn_0" android:layout_width="match_parent" android:layout_height="@dimen/dp50">
+    <ImageView android:id="@+id/icon" android:background="@drawable/bg_left_panel_item" android:padding="@dimen/dp10" android:layout_width="@dimen/dp50" android:layout_height="@dimen/dp50" android:scaleType="center" app:tint="@color/left_bar_icon_tint"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/layout_crypto_rate_popup_0" android:padding="@dimen/dp16" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView android:id="@e/cryptoRatePopup" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/dp16" app:cardElevation="@dimen/dp24" app:cardUseCompatPadding="true">
+        <TextView android:textSize="@dimen/sp12" android:textColor="@color/black" android:id="@e/cryptoRatePopupText" android:paddingTop="@dimen/dp16" android:paddingBottom="@dimen/dp16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dp264" android:lineSpacingExtra="@dimen/sp6" android:fontFamily="@font/regular" android:paddingStart="@dimen/dp20" android:paddingEnd="@dimen/dp20"/>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

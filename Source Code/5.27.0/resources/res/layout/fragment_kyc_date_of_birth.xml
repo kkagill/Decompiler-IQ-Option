@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_kyc_date_of_birth_0" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/dp16" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout android:theme="@style/IQTextLabel" android:id="@+id/kycBirthdayInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" app:errorEnabled="false">
+            <com.iqoption.core.ui.widget.IQTextInputEditText android:textSize="@dimen/sp16" android:textColor="@color/white" android:textColorHint="@color/grey_blue_20" android:id="@+id/kycBirthdayEdit" android:layout_width="match_parent" android:layout_height="wrap_content" android:digits="0123456789." android:inputType="numberDecimal" android:imeOptions="actionDone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp30" android:text="@string/provide_your_true_birthday" android:lineSpacingExtra="@dimen/sp6"/>
+    </LinearLayout>
+</ScrollView>

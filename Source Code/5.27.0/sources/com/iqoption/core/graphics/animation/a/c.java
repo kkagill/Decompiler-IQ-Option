@@ -1,0 +1,26 @@
+package com.iqoption.core.graphics.animation.a;
+
+import kotlin.i;
+
+@i(bne = {1, 1, 15}, bnf = {"\u0000T\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\u0018\u0002\n\u0002\b\b\n\u0002\u0018\u0002\n\u0002\b\u000b\n\u0002\u0010\t\n\u0002\b\u0003\n\u0002\u0010!\n\u0002\b\u0007\n\u0002\u0010\u000b\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\f\b\u0016\u0018\u0000*\b\b\u0000\u0010\u0001*\u00020\u00022\u00020\u0003B\r\u0012\u0006\u0010\u0004\u001a\u00028\u0000¢\u0006\u0002\u0010\u0005J\u001a\u00107\u001a\u00020\b2\u0010\u00108\u001a\f\u0012\u0004\u0012\u00020\b0\u0007j\u0002`\tH\u0016J\u001a\u00109\u001a\u00020\b2\u0010\u00108\u001a\f\u0012\u0004\u0012\u00020\b0\u0007j\u0002`\tH\u0016J\u001a\u0010:\u001a\u00020\b2\u0010\u00108\u001a\f\u0012\u0004\u0012\u00020\b0\u0007j\u0002`\tH\u0016J\u001a\u0010;\u001a\u00020\b2\u0010\u00108\u001a\f\u0012\u0004\u0012\u00020\b0\u0007j\u0002`\tH\u0016J\b\u0010<\u001a\u00020\bH\u0016J\b\u0010=\u001a\u00020\bH\u0016R(\u0010\u0006\u001a\u0010\u0012\u0004\u0012\u00020\b\u0018\u00010\u0007j\u0004\u0018\u0001`\tX\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\n\u0010\u000b\"\u0004\b\f\u0010\rR(\u0010\u000e\u001a\u0010\u0012\u0004\u0012\u00020\b\u0018\u00010\u0007j\u0004\u0018\u0001`\tX\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u000f\u0010\u000b\"\u0004\b\u0010\u0010\rR\"\u0010\u0011\u001a\n\u0012\u0004\u0012\u00028\u0000\u0018\u00010\u0012X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0013\u0010\u0014\"\u0004\b\u0015\u0010\u0016R(\u0010\u0017\u001a\u0010\u0012\u0004\u0012\u00020\b\u0018\u00010\u0007j\u0004\u0018\u0001`\tX\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0018\u0010\u000b\"\u0004\b\u0019\u0010\rR(\u0010\u001a\u001a\u0010\u0012\u0004\u0012\u00020\b\u0018\u00010\u0007j\u0004\u0018\u0001`\tX\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u001b\u0010\u000b\"\u0004\b\u001c\u0010\rR\u0014\u0010\u001d\u001a\u00020\u001eX\u0004¢\u0006\b\n\u0000\u001a\u0004\b\u001f\u0010 R \u0010!\u001a\u0014\u0012\u000e\u0012\f\u0012\u0004\u0012\u00020\b0\u0007j\u0002`\t\u0018\u00010\"X\u000e¢\u0006\u0002\n\u0000R \u0010#\u001a\u0014\u0012\u000e\u0012\f\u0012\u0004\u0012\u00020\b0\u0007j\u0002`\t\u0018\u00010\"X\u000e¢\u0006\u0002\n\u0000R\u0014\u0010$\u001a\u00020\u001eX\u0004¢\u0006\b\n\u0000\u001a\u0004\b%\u0010 R \u0010&\u001a\u0014\u0012\u000e\u0012\f\u0012\u0004\u0012\u00020\b0\u0007j\u0002`\t\u0018\u00010\"X\u000e¢\u0006\u0002\n\u0000R \u0010'\u001a\u0014\u0012\u000e\u0012\f\u0012\u0004\u0012\u00020\b0\u0007j\u0002`\t\u0018\u00010\"X\u000e¢\u0006\u0002\n\u0000R\u0010\u0010\u0004\u001a\u00028\u0000X\u0004¢\u0006\u0004\n\u0002\u0010(R\u001a\u0010)\u001a\u00020*X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b)\u0010+\"\u0004\b,\u0010-R\u0010\u0010.\u001a\u0004\u0018\u00010/X\u000e¢\u0006\u0002\n\u0000R4\u00100\u001a\u001c\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00020\b\u0018\u000101j\n\u0012\u0004\u0012\u00028\u0000\u0018\u0001`2X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b3\u00104\"\u0004\b5\u00106¨\u0006>"}, bng = {"Lcom/iqoption/core/graphics/animation/transition/TemplateTransition;", "Info", "Lcom/iqoption/core/graphics/animation/transition/TransitionInfo;", "Lcom/iqoption/core/graphics/animation/transition/Transition;", "info", "(Lcom/iqoption/core/graphics/animation/transition/TransitionInfo;)V", "afterEnter", "Lkotlin/Function0;", "", "Lcom/iqoption/core/graphics/animation/transition/Callback;", "getAfterEnter", "()Lkotlin/jvm/functions/Function0;", "setAfterEnter", "(Lkotlin/jvm/functions/Function0;)V", "afterExit", "getAfterExit", "setAfterExit", "animatorFactory", "Lcom/iqoption/core/graphics/animation/transition/AnimatorFactory;", "getAnimatorFactory", "()Lcom/iqoption/core/graphics/animation/transition/AnimatorFactory;", "setAnimatorFactory", "(Lcom/iqoption/core/graphics/animation/transition/AnimatorFactory;)V", "beforeEnter", "getBeforeEnter", "setBeforeEnter", "beforeExit", "getBeforeExit", "setBeforeExit", "enterDuration", "", "getEnterDuration", "()J", "enterEndCallbacks", "", "enterStartCallbacks", "exitDuration", "getExitDuration", "exitEndCallbacks", "exitStartCallbacks", "Lcom/iqoption/core/graphics/animation/transition/TransitionInfo;", "isParallel", "", "()Z", "setParallel", "(Z)V", "playingAnimator", "Landroid/animation/Animator;", "reloader", "Lkotlin/Function1;", "Lcom/iqoption/core/graphics/animation/transition/Reloader;", "getReloader", "()Lkotlin/jvm/functions/Function1;", "setReloader", "(Lkotlin/jvm/functions/Function1;)V", "addEnterEndCallback", "callback", "addEnterStartCallback", "addExitEndCallback", "addExitStartCallback", "playEnter", "playExit", "core_release"})
+/* compiled from: Transition.kt */
+public class c<Info extends d> {
+    private final long bik = this.bio.XU().XR();
+    private final long bil = this.bio.XU().XS();
+    private boolean bim = true;
+    private a<? super Info> bin;
+    private final Info bio;
+
+    public c(Info info) {
+        kotlin.jvm.internal.i.f(info, "info");
+        this.bio = info;
+    }
+
+    public final a<Info> XT() {
+        return this.bin;
+    }
+
+    public final void a(a<? super Info> aVar) {
+        this.bin = aVar;
+    }
+}

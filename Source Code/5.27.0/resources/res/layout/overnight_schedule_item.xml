@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/overnight_schedule_item_0" android:layout_width="match_parent" android:layout_height="@dimen/dp30">
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/overnight_fee_schedule_text" android:id="@+id/weekDay" android:layout_width="@dimen/dp44" android:layout_height="wrap_content" android:textAllCaps="true"/>
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/overnight_fee_schedule_text" android:gravity="center_horizontal" android:id="@+id/chargeTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dp36" android:textAllCaps="true" android:layout_marginEnd="@dimen/dp8"/>
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/overnight_fee_schedule_text" android:gravity="center" android:id="@+id/buyPercent" android:layout_width="0dp" android:layout_height="@dimen/sp20" android:maxLines="1" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/overnight_fee_schedule_text" android:gravity="center" android:id="@+id/sellPercent" android:layout_width="0dp" android:layout_height="@dimen/sp20" android:maxLines="1" android:layout_weight="1"/>
+</LinearLayout>

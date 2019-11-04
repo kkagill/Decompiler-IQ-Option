@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/multi_active_item_0" android:background="@drawable/tools_item_bg" android:layout_width="match_parent" android:layout_height="@dimen/dp40">
+    <ImageView android:id="@+id/assetIcon" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20" android:layout_margin="@dimen/dp10"/>
+    <TextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@d/assetName" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" android:fontFamily="@font/medium" app:autoSizeMaxTextSize="@dimen/sp10" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeStepGranularity="1dp" app:autoSizeTextType="1"/>
+</LinearLayout>

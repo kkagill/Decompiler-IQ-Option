@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/kycCountryContainer" android:tag="layout/fragment_kyc_country_0" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:id="@+id/kycCountryScreenTitle" android:padding="@dimen/dp16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/medium"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/kycCountryList" android:clickable="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:overScrollMode="never"/>
+            <CheckBox android:textSize="@dimen/sp16" android:textColor="@color/grey_blue" android:id="@+id/kycCountryCitizenCheck" android:paddingTop="@dimen/dp18" android:paddingBottom="@dimen/dp18" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/kyc_checkbox" android:text="@string/kyc_also_citizen_of_country" android:lineSpacingExtra="@dimen/sp4" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16" android:layout_marginStart="@dimen/dp20"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/sp16" android:textColor="@color/grey_blue_70" android:gravity="center" android:id="@+id/kycCountryEmpty" android:padding="@dimen/dp16" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/list_is_empty" android:fontFamily="@font/medium"/>
+        <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@+id/kycCountryProgress" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48" style="?android:attr/progressBarStyleLarge"/>
+    </FrameLayout>
+</LinearLayout>

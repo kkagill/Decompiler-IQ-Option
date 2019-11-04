@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/baseContainer" android:tag="layout/fragment_left_panel_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:orientation="vertical" android:id="@+id/menuContainer" android:layout_width="@dimen/dp50" android:layout_height="match_parent">
+        <ImageView android:id="@+id/menu" android:background="@drawable/bg_left_panel_item" android:padding="@dimen/dp10" android:layout_width="@dimen/dp50" android:layout_height="@dimen/dp50" app:srcCompat="@drawable/ic_menu" app:tint="@color/grey_blur_50"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/list" android:tag="binding_1" android:background="@color/bg_second_level" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp50" android:overScrollMode="never"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/fragmentContainer" android:layout_width="@d/left_panel_fragment_width" android:layout_height="match_parent" android:layout_marginStart="@dimen/dp50"/>
+</FrameLayout>

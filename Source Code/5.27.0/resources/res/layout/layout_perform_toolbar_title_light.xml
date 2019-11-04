@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@e/toolbarTitleContainer" android:tag="layout/layout_perform_toolbar_title_light_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp16">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/sp16" android:textColor="@color/black" android:ellipsize="end" android:id="@e/depositPerformLightTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="@dimen/sp4" android:fontFamily="@font/medium" android:layout_marginStart="@dimen/dp4" android:layout_marginEnd="@dimen/dp16"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@e/depositToolbarSecure" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp16">
+            <ImageView android:layout_width="@dimen/dp16" android:layout_height="@dimen/dp16" app:srcCompat="@d/ic_protected_green"/>
+            <TextView android:textSize="@dimen/sp12" android:textColor="@color/deposit_dark_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secure_method"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@e/toolbarDepositInfo" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp16" app:srcCompat="@d/ic_help_outline_white_24dp" app:tint="#6a6e71"/>
+</LinearLayout>

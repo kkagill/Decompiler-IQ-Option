@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/assets_multi_warning_item_0" android:paddingLeft="@dimen/dp14" android:paddingRight="@dimen/dp14" android:layout_width="match_parent" android:layout_height="@dimen/dp68">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:tag="binding_1" android:background="@drawable/rect_rounded_8" android:padding="@dimen/dp10" android:layout_width="match_parent" android:layout_height="@dimen/dp48">
+        <ImageView android:id="@+id/icon" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" app:srcCompat="@drawable/ic_warning_red" app:tint="@color/white"/>
+        <TextView android:textSize="@dimen/sp12" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/warningText" android:layout_width="match_parent" android:layout_height="@dimen/dp34" android:maxLines="2" android:fontFamily="@font/medium" android:layout_marginStart="@dimen/dp10" app:autoSizeMaxTextSize="@dimen/sp12" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeStepGranularity="@dimen/sp1" app:autoSizeTextType="1"/>
+    </LinearLayout>
+</FrameLayout>

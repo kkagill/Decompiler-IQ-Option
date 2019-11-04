@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@e/feed_list" android:tag="layout/macro_smart_feed_0" android:paddingTop="@dimen/dp16" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:splitMotionEvents="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>

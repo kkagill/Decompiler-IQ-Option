@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@d/registerContainer" android:tag="layout-land/fragment_welcome_registration_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp56">
+            <ImageView android:id="@+id/backButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp4" app:srcCompat="@drawable/ic_arrow_back" style="@style/WelcomeBackButton"/>
+            <TextView android:id="@+id/title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/registration_mob" android:layout_weight="1" style="@style/WelcomeTitle"/>
+            <TextView android:textSize="@dimen/sp14" android:textColor="@color/dark_orange" android:ellipsize="end" android:id="@d/previewApp" android:tag="binding_2" android:padding="@dimen/dp8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dp200" android:text="@string/preview_the_app_short" android:singleLine="true" android:textAllCaps="true" android:fontFamily="@font/medium" android:layout_marginStart="@dimen/dp8" android:layout_marginEnd="@dimen/dp8" android:letterSpacing="0.04"/>
+        </LinearLayout>
+        <FrameLayout android:id="@d/registerContentContainer" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+                <LinearLayout android:orientation="vertical" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp68" android:layout_marginTop="@dimen/dp16" android:layout_marginRight="@dimen/dp68">
+                        <com.google.android.material.textfield.TextInputLayout android:theme="@style/TextLabelGreyBlur" android:id="@d/emailLayout" android:paddingTop="3dp" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/your_email" android:layout_weight="1" app:errorEnabled="false">
+                            <com.iqoption.core.ui.widget.IQTextInputEditText android:textSize="@dimen/sp18" android:textColor="@color/white" android:id="@d/emailEdit" android:nextFocusDown="@+id/passwordEdit" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="textEmailAddress" android:imeOptions="actionUnspecified|actionNone|actionSend|actionNext|flagNoExtractUi"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout android:theme="@style/TextLabelGreyBlur" android:id="@d/passwordLayout" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/your_password" android:layout_weight="1" app:errorEnabled="false" app:passwordToggleEnabled="true" app:passwordToggleTint="@color/grey_blur_50">
+                            <com.iqoption.core.ui.widget.IQTextInputEditText android:textSize="@dimen/sp18" android:textColor="@color/white" android:id="@+id/passwordEdit" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="textPassword" android:imeOptions="actionUnspecified|actionGo|actionSend|actionDone|flagNoExtractUi"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                    <include android:layout_width="match_parent" android:layout_height="@dimen/dp44" android:layout_marginTop="@dimen/dp30" layout="@e/layout_welcome_social"/>
+                    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                    <include android:id="@d/welcomePolicy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp14" android:layout_marginEnd="@dimen/dp20" layout="@e/layout_welcome_policy"/>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </FrameLayout>
+        <include android:id="@d/layoutRegisterButton" layout="@e/layout_register_button"/>
+    </LinearLayout>
+</FrameLayout>

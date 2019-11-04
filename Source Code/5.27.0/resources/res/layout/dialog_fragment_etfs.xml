@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:orientation="vertical" android:tag="layout/dialog_fragment_etfs_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/grey_blur_10" android:layout_width="match_parent" android:layout_height="@dimen/dp48">
+        <TextView android:textSize="@dimen/sp14" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/title" android:paddingLeft="@dimen/dp20" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" android:fontFamily="@font/medium"/>
+        <FrameLayout android:layout_gravity="end" android:padding="@dimen/dp2" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@+id/close" android:paddingLeft="@dimen/dp20" android:paddingRight="@dimen/dp20" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/close_popup_content_description" app:srcCompat="@drawable/ic_close_selector"/>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp64" android:layout_marginTop="@dimen/dp28">
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/etf_sqqq" android:scaleType="center" android:layout_weight="1"/>
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/etf_fxi" android:scaleType="center" android:layout_weight="1"/>
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/etf_gdx" android:scaleType="center" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp64" android:layout_marginTop="@dimen/_dp8">
+        <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.5"/>
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/etf_xlf" android:scaleType="center" android:layout_weight="1"/>
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/etf_hyg" android:scaleType="center" android:layout_weight="1"/>
+        <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.5"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blur" android:gravity="center_horizontal" android:paddingLeft="@dimen/dp31" android:paddingTop="@dimen/dp32" android:paddingRight="@dimen/dp31" android:paddingBottom="@dimen/dp12" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/diversify_your_portfolio_with_exchange" android:maxLines="2" android:lineSpacingExtra="@dimen/sp6" android:fontFamily="@font/regular" app:autoSizeMaxTextSize="@dimen/sp14" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeTextType="1"/>
+    <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/sp14" android:layout_gravity="center" android:id="@+id/tryNow" android:layout_width="@dimen/dp204" android:layout_height="@dimen/dp40" android:layout_margin="@dimen/dp20" android:text="@j/try_now" android:fontFamily="@font/bold" app:autoSizeMaxTextSize="@dimen/sp14" app:autoSizeMinTextSize="@dimen/sp9" app:autoSizeTextType="1" style="@style/IQButton.Green"/>
+</LinearLayout>

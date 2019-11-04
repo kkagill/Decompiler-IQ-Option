@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_kyc_question_text_0" android:background="@color/bg_second_level" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/kycTextQuestionExpired" android:layout="@layout/layout_kyc_questionnaire_expired" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.google.android.material.textfield.TextInputLayout android:theme="@style/IQTextLabel" android:id="@+id/kycTextQuestionInput" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp36" android:hint="@string/name" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16" app:errorEnabled="false">
+            <com.iqoption.core.ui.widget.IQTextInputEditText android:textSize="@dimen/sp16" android:textColor="@color/white" android:textColorHint="@color/grey_blue_70" android:id="@+id/kycTextQuestionEdit" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none|text|textCapWords|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textPassword|textVisiblePassword|textWebEditText|textFilter" android:imeOptions="actionNext"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/itemView" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/dp44">
+    <ImageView android:id="@+id/activeIcon" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20" android:layout_margin="@dimen/dp12" android:scaleType="fitXY"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/dp80" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/sp12" android:textColor="@color/white" android:id="@d/activeTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" app:autoSizeMaxTextSize="@dimen/sp12" app:autoSizeMinTextSize="@dimen/sp9" app:autoSizeTextType="1"/>
+        <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:id="@+id/activeQuote" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" app:autoSizeMaxTextSize="@dimen/sp9" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeTextType="1"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@+id/paramsContainer" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/sp11" android:textColor="@color/green" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/activeDiff" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="1" android:fontFamily="@font/medium"/>
+            <TextView android:textSize="@dimen/sp11" android:textColor="@color/white" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/activeExpiration" android:layout_width="@dimen/dp142" android:layout_height="match_parent" android:maxLines="1" android:fontFamily="@font/medium"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:layout_gravity="right" android:orientation="vertical" android:id="@d/closedConteiner" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.iqoption.view.RobotoTextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:gravity="center" android:id="@d/closedTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/closed" android:maxLines="1" android:textAllCaps="true"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@d/timeIcon" android:layout_width="@dimen/dp9" android:layout_height="@dimen/dp9" app:srcCompat="@drawable/ic_asset_icon_time"/>
+                <com.iqoption.view.RobotoTextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:gravity="center" android:id="@+id/timeValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp4" android:text="00:00" android:maxLines="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:id="@+id/infoBtn" android:focusable="true" android:clickable="true" android:layout_width="@dimen/dp28" android:layout_height="@dimen/dp28" android:layout_marginLeft="@dimen/dp6" app:srcCompat="@drawable/ic_info_filled_white_14dp" app:tint="@a/selectable_gray_blur_50_white" style="@style/IQActionButton.Small"/>
+    <com.iqoption.view.FavoriteVectorSwitchView android:id="@+id/switcherFavorite" android:layout_width="@dimen/dp28" android:layout_height="@dimen/dp28" android:layout_marginRight="@dimen/dp6" style="@style/IQActionButton.Small"/>
+</LinearLayout>

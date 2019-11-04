@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:id="@+id/kycCountryTitle" android:tag="layout/item_country_title_0" android:padding="@dimen/dp16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/medium"/>

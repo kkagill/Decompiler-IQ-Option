@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/custodial_schedule_item_0" android:layout_width="match_parent" android:layout_height="@dimen/dp30">
+    <TextView android:textSize="@dimen/sp12" android:textColor="@color/grey_blue" android:gravity="center_vertical" android:id="@+id/period" android:layout_width="@dimen/dp60" android:layout_height="match_parent" android:maxLines="1"/>
+    <TextView android:textSize="@dimen/sp12" android:textColor="@color/grey_blue" android:gravity="center_vertical" android:id="@+id/chargeDate" android:layout_width="@dimen/dp60" android:layout_height="match_parent" android:maxLines="1" android:textAllCaps="true"/>
+    <TextView android:textSize="@dimen/sp12" android:textColor="@color/grey_blue" android:gravity="center_vertical" android:id="@+id/feePercent" android:layout_width="@dimen/dp52" android:layout_height="match_parent" android:maxLines="1"/>
+    <TextView android:textSize="@dimen/sp12" android:textColor="@color/grey_blue" android:gravity="center_vertical" android:id="@+id/feeAmount" android:layout_width="@dimen/dp60" android:layout_height="match_parent" android:maxLines="1"/>
+</LinearLayout>

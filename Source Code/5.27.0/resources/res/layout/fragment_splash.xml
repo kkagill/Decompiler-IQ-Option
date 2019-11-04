@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/splash" android:tag="layout/fragment_splash_0" android:background="@color/bg_second_level" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:orientation="vertical" android:paddingLeft="@dimen/dp10" android:paddingTop="@dimen/dp10" android:paddingRight="@dimen/dp10" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/dp200" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp10" android:textColor="@color/white_35" android:layout_gravity="center_horizontal" android:id="@+id/frontText" android:paddingLeft="@dimen/dp2" android:paddingRight="@dimen/dp2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1"/>
+            <TextView android:textSize="@dimen/sp10" android:textColor="@color/white_35" android:gravity="end" android:id="@+id/timerText" android:paddingLeft="@dimen/dp2" android:paddingRight="@dimen/dp2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/white_35" android:gravity="bottom" android:layout_gravity="center_horizontal" android:id="@+id/logText" android:paddingLeft="@dimen/dp2" android:paddingRight="@dimen/dp2" android:visibility="gone" android:layout_width="@dimen/dp200" android:layout_height="@dimen/dp100" android:lines="10"/>
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/white_35" android:gravity="top" android:layout_gravity="center_horizontal" android:id="@+id/noDurationText" android:paddingLeft="@dimen/dp2" android:paddingRight="@dimen/dp2" android:visibility="gone" android:layout_width="@dimen/dp200" android:layout_height="@dimen/dp100" android:lines="10"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:orientation="horizontal" android:id="@+id/ic_cysec" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/ic_cysec"/>
+        <TextView android:textSize="@dimen/sp12" android:textColor="@color/white_35" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/splash_connecting_info" android:padding="@dimen/dp10" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/animation" android:layout_width="@dimen/splash_icon_size" android:layout_height="@dimen/splash_icon_size"/>
+    <View android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/bottomLeftView" android:layout_width="@dimen/dp100" android:layout_height="@dimen/dp56"/>
+</FrameLayout>

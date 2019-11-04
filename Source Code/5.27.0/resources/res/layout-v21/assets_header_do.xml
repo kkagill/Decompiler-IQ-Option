@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:id="@+id/headerContentDoFx" android:tag="layout/assets_header_do_0" android:layout_width="match_parent" android:layout_height="@dimen/dp44">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/containerName" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2" android:layout_marginEnd="@dimen/dp4">
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/grey_blue_70" android:gravity="center_vertical" android:id="@+id/sortLabelName" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/active" android:textAllCaps="true" android:fontFamily="@font/medium" android:letterSpacing="0.02"/>
+        <ImageView android:id="@+id/sortIndicatorName" android:padding="@dimen/dp3" android:layout_width="wrap_content" android:layout_height="match_parent" app:srcCompat="@drawable/assets_sort_indicator" app:tint="@color/grey_blue_70"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/containerDiff" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginEnd="@dimen/dp4">
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/grey_blue_70" android:gravity="center_vertical" android:id="@+id/sortLabelDiff" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@j/hour1" android:textAllCaps="true" android:fontFamily="@font/medium" android:letterSpacing="0.02"/>
+        <ImageView android:id="@+id/sortIndicatorDiff" android:padding="@dimen/dp3" android:layout_width="wrap_content" android:layout_height="match_parent" app:srcCompat="@drawable/assets_sort_indicator" app:tint="@color/grey_blue_70"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/containerSpotProfit" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2">
+        <TextView android:textSize="@dimen/sp10" android:textColor="@color/grey_blue_70" android:gravity="center_vertical" android:id="@+id/sortLabelSpotProfit" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/profit" android:textAllCaps="true" android:fontFamily="@font/medium" android:letterSpacing="0.02"/>
+        <ImageView android:id="@+id/sortIndicatorSpotProfit" android:padding="@dimen/dp3" android:layout_width="wrap_content" android:layout_height="match_parent" app:srcCompat="@drawable/assets_sort_indicator" app:tint="@color/grey_blue_70"/>
+    </LinearLayout>
+</LinearLayout>

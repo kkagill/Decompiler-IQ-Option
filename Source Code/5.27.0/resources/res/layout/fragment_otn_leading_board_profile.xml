@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/rootContainer" android:tag="layout/fragment_otn_leading_board_profile_0" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp258">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="@color/bg_dialog" android:paddingTop="@dimen/dp12" android:layout_width="@dimen/leading_board_user_board_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp29" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:tag="binding_2" android:paddingLeft="@dimen/dp12" android:paddingRight="@dimen/dp12" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/user" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/fragment_otn_leading_board_user_board_user"/>
+            <androidx.legacy.widget.Space android:id="@+id/space1" android:layout_width="match_parent" android:layout_height="@dimen/dp22"/>
+            <include android:id="@+id/date" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/fragment_otn_leading_board_user_board_date"/>
+            <androidx.legacy.widget.Space android:id="@+id/space2" android:layout_width="match_parent" android:layout_height="@dimen/dp22"/>
+            <include android:id="@+id/place" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/fragment_otn_leading_board_user_board_place"/>
+            <androidx.legacy.widget.Space android:id="@+id/space3" android:layout_width="match_parent" android:layout_height="@dimen/dp22"/>
+            <include android:id="@+id/commission" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/fragment_otn_leading_board_user_board_commission"/>
+            <androidx.legacy.widget.Space android:id="@+id/space4" android:layout_width="match_parent" android:layout_height="@dimen/dp22"/>
+        </LinearLayout>
+        <include android:id="@+id/trading" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/fragment_otn_leading_board_user_board_trading"/>
+    </LinearLayout>
+</FrameLayout>

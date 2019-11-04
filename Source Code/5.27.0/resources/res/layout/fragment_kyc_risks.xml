@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_kyc_risks_0" android:background="@color/bg_second_level" android:paddingBottom="@dimen/dp16" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16">
+    <WebView android:id="@+id/kycRisksWebView" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@+id/kycRisksProgress" android:padding="@dimen/dp5" android:layout_width="@dimen/dp56" android:layout_height="@dimen/dp56" style="?android:attr/progressBarStyleLarge"/>
+</FrameLayout>

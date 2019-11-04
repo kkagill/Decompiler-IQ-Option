@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/sp38" android:textColor="@color/grey_blue" android:gravity="center" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="@dimen/numpad_item_width" android:layout_height="@dimen/numpad_item_height"/>

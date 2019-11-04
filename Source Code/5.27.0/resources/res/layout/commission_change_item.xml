@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:tag="layout/commission_change_item_0" android:paddingTop="@dimen/dp2" android:paddingBottom="@dimen/dp2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/asset" android:layout_width="@dimen/dp94" android:layout_height="wrap_content" android:maxLines="1" android:paddingEnd="@dimen/dp2"/>
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/fixed" android:layout_width="@dimen/dp64" android:layout_height="wrap_content" android:maxLines="1" android:paddingEnd="@dimen/dp2"/>
+    <TextView android:textSize="@dimen/sp14" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/percent" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" android:paddingEnd="@dimen/dp2"/>
+</LinearLayout>

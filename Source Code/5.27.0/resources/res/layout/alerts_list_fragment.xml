@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/alerts_list_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@d/alertsList" android:paddingTop="@dimen/dp8" android:paddingBottom="@dimen/dp8" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@d/btnAddAlert" android:tag="binding_1" android:background="@c/circle_gold" android:visibility="gone" android:layout_width="@dimen/dp44" android:layout_height="@dimen/dp44" android:layout_margin="@dimen/dp14" android:scaleType="center" app:srcCompat="@drawable/ic_plus_white_24dp"/>
+</FrameLayout>

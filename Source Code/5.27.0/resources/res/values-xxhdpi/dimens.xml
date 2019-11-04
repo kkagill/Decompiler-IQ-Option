@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nv_helpview_container_padding_top">60dp</dimen>
+    <dimen name="nv_helpview_fallback_button_text">13sp</dimen>
+    <dimen name="nv_helpview_full_description_margin_top">35dp</dimen>
+    <dimen name="nv_helpview_full_padding_top">60dp</dimen>
+    <dimen name="nv_upload_container_padding_top">60dp</dimen>
+    <dimen name="nv_upload_description_text">17sp</dimen>
+    <dimen name="nv_upload_progress_info_text">15sp</dimen>
+    <dimen name="nv_upload_retry_button_landscape_text">15sp</dimen>
+    <dimen name="nv_upload_title_text">21sp</dimen>
+</resources>

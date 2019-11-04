@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/everything" android:tag="layout/multi_expiration_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/contentLayout" android:background="@drawable/bg_card_view" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp60" android:layout_marginRight="@dimen/dp130" android:layout_marginBottom="@dimen/dp10">
+        <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:gravity="center" android:id="@+id/expTitle" android:layout_width="70dp" android:layout_height="@dimen/dp30" android:text="@string/time" android:textAllCaps="true" android:fontFamily="@font/medium" app:autoSizeMaxTextSize="@dimen/sp9" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeTextType="1"/>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/expirtionList" android:layout_width="@dimen/dp70" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+            <View android:background="@drawable/keyboard_shadow" android:layout_width="@dimen/dp70" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

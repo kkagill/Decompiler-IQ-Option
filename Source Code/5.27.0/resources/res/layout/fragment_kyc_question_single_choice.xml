@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_kyc_question_single_choice_0" android:background="@color/bg_second_level" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/kycSingleQuestionExpired" android:layout="@layout/layout_kyc_questionnaire_expired" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:id="@+id/kycSingleQuestionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp24" android:layout_marginBottom="@dimen/dp16" android:fontFamily="@font/medium" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16"/>
+        <RadioGroup android:id="@+id/kycSingleQuestionAnswers" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

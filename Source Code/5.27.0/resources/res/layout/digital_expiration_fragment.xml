@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/everything" android:tag="layout/digital_expiration_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/contentLayout" android:background="@drawable/bg_card_view" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp60" android:layout_marginRight="@dimen/dp130" android:layout_marginBottom="@dimen/dp10">
+        <LinearLayout android:orientation="vertical" android:id="@+id/mainLinearLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dp30">
+                <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:gravity="center" android:id="@+id/expTitle" android:layout_width="70dp" android:layout_height="match_parent" android:text="@string/time" android:textAllCaps="true" android:fontFamily="@font/medium" app:autoSizeMaxTextSize="@dimen/sp9" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeTextType="1"/>
+                <View android:background="@color/black_15" android:layout_width="1dp" android:layout_height="match_parent"/>
+                <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:gravity="center" android:id="@+id/strikeTitle" android:layout_width="@dimen/dp70" android:layout_height="match_parent" android:text="@j/strike" android:layout_alignRight="@+id/expTitle" android:textAllCaps="true" android:fontFamily="@font/medium"/>
+                <RelativeLayout android:layout_width="@dimen/dp100" android:layout_height="match_parent">
+                    <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@d/profitTitle" android:layout_width="match_parent" android:layout_height="@dimen/dp16" android:text="@j/total_profit" android:textAllCaps="true" android:fontFamily="@font/medium"/>
+                    <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_33" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/priceTitle" android:layout_width="match_parent" android:layout_height="@dimen/dp14" android:text="@j/option_price" android:layout_alignParentBottom="true" android:textAllCaps="true" android:fontFamily="@font/medium"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@+id/expirtionList" android:layout_width="@dimen/dp70" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                    <View android:background="@color/black_15" android:layout_width="1dp" android:layout_height="match_parent"/>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@+id/strikeList" android:layout_width="@dimen/dp170" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                </LinearLayout>
+                <View android:background="@drawable/keyboard_shadow" android:layout_width="@dimen/dp240" android:layout_height="match_parent"/>
+            </FrameLayout>
+            <androidx.appcompat.widget.SwitchCompat android:theme="@style/PushSettingsTheme" android:textSize="@dimen/sp10" android:textColor="@color/grey_blur_70" android:gravity="center_vertical" android:layout_gravity="end" android:id="@+id/autoSelectionStrike" android:padding="@dimen/dp8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dp240" android:text="@j/auto_selection_of_closest_strike" android:includeFontPadding="false" android:layout_marginEnd="@dimen/dp9" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/expirtionList" app:switchPadding="@dimen/dp10"/>
+            <TextView android:textSize="@dimen/sp10" android:textStyle="normal" android:textColor="@color/grey_blur" android:id="@+id/spotTabsTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:text="@j/strike_auto_selection" android:textAllCaps="true" android:fontFamily="@font/regular" android:layout_marginStart="@dimen/dp10"/>
+            <com.google.android.material.tabs.TabLayout android:id="@+id/spotTabs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp38" android:layout_marginTop="@dimen/dp9" android:layout_marginStart="@dimen/dp10" android:layout_marginEnd="@dimen/dp10" app:tabGravity="0" app:tabIndicatorColor="@color/white" app:tabMaxWidth="0dp" app:tabMode="1" app:tabSelectedTextColor="@color/white" app:tabTextAppearance="@style/SpotTabLayout" app:tabTextColor="@color/grey_blur">
+                <com.google.android.material.tabs.TabItem android:layout_width="match_parent" android:layout_height="match_parent" android:text="@j/off"/>
+                <com.google.android.material.tabs.TabItem android:layout_width="match_parent" android:layout_height="match_parent" android:text="@j/closest"/>
+                <com.google.android.material.tabs.TabItem android:layout_width="match_parent" android:layout_height="match_parent" android:text="@j/spot"/>
+            </com.google.android.material.tabs.TabLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/fragment_operation_history_0" android:background="@color/dark_blue" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@d/operationHistoryToolbar" layout="@e/layout_operation_history_toolbar"/>
+    <ScrollView android:id="@d/operationHistoryScrollContainer" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_marginStart="@b/operationHistorySideMargin" android:layout_marginEnd="@b/operationHistorySideMargin">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@c/operation_history_divider" android:showDividers="middle">
+            <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:padding="@dimen/dp16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/basic" android:fontFamily="@font/medium"/>
+            <LinearLayout android:orientation="vertical" android:id="@d/operationHistoryType" android:tag="binding_1" android:background="@color/grey_blue_5" android:padding="@dimen/dp16" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp16" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/operation"/>
+                <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:id="@d/operationHistoryTypeValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:fontFamily="@font/medium"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@d/operationHistoryStatus" android:tag="binding_2" android:background="@color/grey_blue_5" android:padding="@dimen/dp16" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp16" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status"/>
+                <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:id="@d/operationHistoryStatusValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:fontFamily="@font/medium"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:paddingTop="@dimen/dp24" android:paddingBottom="@dimen/dp16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/period" android:fontFamily="@font/medium" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16"/>
+            <LinearLayout android:orientation="vertical" android:id="@d/operationHistoryDate" android:tag="binding_3" android:background="@color/grey_blue_5" android:padding="@dimen/dp16" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp16" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/date"/>
+                <TextView android:textSize="@dimen/sp14" android:textColor="@color/grey_blue_70" android:id="@d/operationHistoryDateValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:fontFamily="@font/medium"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

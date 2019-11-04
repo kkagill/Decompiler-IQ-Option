@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/everything" android:tag="layout/fragment_trial_registration_0" android:background="@color/black_65" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@d/registerContainer" android:background="@color/dark_blue" android:focusable="true" android:clickable="true" android:layout_width="@dimen/dp340" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp56">
+                <TextView android:id="@+id/title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/open_real_account" android:layout_weight="1" android:layout_marginStart="@dimen/dp20" android:layout_marginEnd="@dimen/dp20" style="@style/WelcomeTitle"/>
+                <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@d/registrationClose" android:background="?attr/selectableItemBackgroundBorderless" android:padding="@dimen/dp12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:contentDescription="@string/close_popup_content_description" android:layout_marginEnd="@dimen/dp8" app:srcCompat="@drawable/ic_close"/>
+            </LinearLayout>
+            <FrameLayout android:id="@d/registerContentContainer" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <com.google.android.material.textfield.TextInputLayout android:theme="@style/TextLabelGreyBlur" android:textSize="@dimen/sp10" android:id="@d/emailLayout" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/your_email" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16" app:errorEnabled="false">
+                                <com.iqoption.core.ui.widget.IQTextInputEditText android:textSize="@dimen/sp14" android:textColor="@color/white" android:id="@d/emailEdit" android:nextFocusDown="@+id/passwordEdit" android:layout_width="match_parent" android:layout_height="wrap_content" android:cursorVisible="true" android:maxLines="1" android:inputType="textEmailAddress" android:imeOptions="actionUnspecified|actionNone|actionSend|actionNext|flagNoExtractUi"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                            <FrameLayout android:paddingTop="@dimen/dp8" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8">
+                                <com.google.android.material.textfield.TextInputLayout android:theme="@style/TextLabelGreyBlur" android:id="@d/passwordLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/your_password" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8" app:errorEnabled="false">
+                                    <com.iqoption.core.ui.widget.IQTextInputEditText android:textSize="@dimen/sp14" android:textColor="@color/white" android:id="@+id/passwordEdit" android:nextFocusDown="@d/welcomePolicyCheck" android:layout_width="match_parent" android:layout_height="wrap_content" android:cursorVisible="true" android:maxLines="1" android:inputType="textPassword" android:imeOptions="actionUnspecified|actionGo|actionSend|actionDone|flagNoExtractUi"/>
+                                </com.google.android.material.textfield.TextInputLayout>
+                                <ToggleButton android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/passwordToggle" android:tag="binding_1" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:layout_marginTop="@dimen/dp4" android:button="@c/ic_switch_pass" android:textOn="" android:textOff="" android:layout_marginStart="@dimen/dp12" android:layout_marginEnd="@dimen/dp12"/>
+                            </FrameLayout>
+                            <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/dp20" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp14" android:layout_marginEnd="@dimen/dp20">
+                                <CheckBox android:id="@d/welcomePolicyCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_marginEnd="@dimen/dp6"/>
+                                <TextView android:textSize="@dimen/sp10" android:textColor="@color/grey_blur_70" android:id="@d/welcomePolicyText" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:lineSpacingExtra="@dimen/sp3" android:paddingStart="@dimen/dp6"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+                    <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/dp48">
+                        <TextView android:textSize="@dimen/sp18" android:textColor="@color/btn_next_text" android:layout_gravity="center" android:id="@+id/button" android:layout_width="match_parent" android:layout_height="match_parent" android:includeFontPadding="false" android:fontFamily="@font/medium" app:backgroundTint="@color/green" style="@style/IQButton.Square"/>
+                        <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@+id/progress" android:tag="binding_2" android:visibility="gone" android:layout_width="@dimen/dp32" android:layout_height="@dimen/dp32" style="?android:attr/progressBarStyleLarge"/>
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

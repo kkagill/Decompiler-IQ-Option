@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@e/methodContainer" android:tag="layout/item_payment_method_light_0" android:background="@d/bg_white_green_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp54" android:paddingStart="@dimen/dp12">
+    <ImageView android:id="@e/methodIcon" android:layout_width="@dimen/dp30" android:layout_height="@dimen/dp30" android:layout_marginTop="@c/deposit_padding" android:layout_marginBottom="@c/deposit_padding" android:scaleType="fitCenter"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:layout_marginBottom="@dimen/dp10" android:layout_weight="1">
+        <TextView android:textSize="@dimen/sp14" android:textColor="@color/black" android:ellipsize="end" android:id="@e/methodName" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="@font/medium" android:paddingEnd="@dimen/dp12" android:layout_marginStart="@dimen/dp12" android:layout_marginEnd="@dimen/dp12"/>
+        <TextView android:textSize="@dimen/dp12" android:id="@e/methodDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp3" android:layout_marginStart="@dimen/dp12" android:layout_marginEnd="@dimen/dp12" android:letterSpacing="0.02"/>
+    </LinearLayout>
+    <View android:id="@e/methodChecked" android:background="@color/green" android:visibility="gone" android:layout_width="@dimen/dp3" android:layout_height="match_parent"/>
+    <ImageView android:id="@e/methodLocked" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:layout_marginEnd="@dimen/dp16" app:srcCompat="@d/ic_lock_white_24dp" app:tint="@color/deposit_dark_grey_25"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/everything" android:tag="layout/fx_expiration_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/contentLayout" android:background="@drawable/bg_card_view" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp60" android:layout_marginRight="@dimen/dp130" android:layout_marginBottom="@dimen/dp10">
+        <LinearLayout android:orientation="vertical" android:id="@+id/mainLinearLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dp30">
+                <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:gravity="center" android:id="@+id/expTitle" android:layout_width="90dp" android:layout_height="match_parent" android:text="@j/expiration" android:maxLines="1" android:textAllCaps="true" android:fontFamily="@font/medium" app:autoSizeMaxTextSize="@dimen/sp9" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeTextType="1"/>
+                <View android:background="@color/black_15" android:layout_width="1dp" android:layout_height="match_parent"/>
+                <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="@dimen/dp70" android:layout_height="match_parent" android:text="@j/strike" android:textAllCaps="true" android:fontFamily="@font/medium" android:paddingStart="@dimen/dp12" app:autoSizeMaxTextSize="@dimen/sp9" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeTextType="1"/>
+                <TextView android:textSize="@dimen/sp9" android:textColor="@color/grey_blur_50" android:gravity="right|center_vertical|center_horizontal|center" android:layout_width="@dimen/dp93" android:layout_height="match_parent" android:text="@j/option_price" android:textAllCaps="true" android:fontFamily="@font/medium" android:paddingEnd="@dimen/dp12" app:autoSizeMaxTextSize="@dimen/sp9" app:autoSizeMinTextSize="@dimen/sp6" app:autoSizeTextType="1"/>
+            </LinearLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@+id/expirtionList" android:layout_width="@dimen/dp90" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                    <View android:background="@color/black_15" android:layout_width="1dp" android:layout_height="match_parent"/>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@+id/strikeList" android:layout_width="@dimen/dp163" android:layout_height="match_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+                </LinearLayout>
+                <View android:background="@drawable/keyboard_shadow" android:layout_width="@dimen/dp254" android:layout_height="match_parent"/>
+            </FrameLayout>
+            <androidx.appcompat.widget.SwitchCompat android:theme="@style/PushSettingsTheme" android:textSize="@dimen/sp10" android:textColor="@color/grey_blur_70" android:gravity="center_vertical" android:layout_gravity="end" android:id="@+id/autoSelectionStrike" android:padding="@dimen/dp8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dp240" android:text="@j/auto_selection_of_closest_strike" android:includeFontPadding="false" android:layout_marginEnd="@dimen/dp9" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/expirtionList" app:switchPadding="@dimen/dp10"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

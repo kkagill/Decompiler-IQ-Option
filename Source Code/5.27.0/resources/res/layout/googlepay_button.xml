@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@d/googlepay_button_no_shadow_background" android:paddingTop="@dimen/sp2" android:focusable="true" android:clickable="false" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="@dimen/sp48" android:contentDescription="@g/googlepay_button_content_description">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="@dimen/sp48" android:weightSum="2">
+        <ImageView android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="0dp" android:scaleType="fitCenter" android:layout_weight="1" app:srcCompat="@d/googlepay_button_content"/>
+    </LinearLayout>
+    <ImageView android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="@dimen/sp48" android:src="@d/googlepay_button_overlay" android:scaleType="fitXY"/>
+</RelativeLayout>

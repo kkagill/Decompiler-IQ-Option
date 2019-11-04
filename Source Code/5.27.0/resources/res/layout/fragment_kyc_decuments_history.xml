@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/fragment_kyc_decuments_history_0" android:background="@color/bg_second_level" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/kycDocumentsBack" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp4" app:srcCompat="@drawable/ic_arrow_back_white_24dp" style="@style/IQ.Widget.ActionButton"/>
+        <TextView android:textSize="@dimen/sp20" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/kycDocumentsTitle" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/uploading_history" android:maxLines="1" android:singleLine="true" android:layout_weight="1" android:fontFamily="@font/medium" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/kycDocumentsList" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    <FrameLayout android:id="@+id/kycDocumentsProgress" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48" style="?android:attr/progressBarStyleLarge"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/sp16" android:textColor="@color/grey_blue_70" android:gravity="center" android:id="@+id/kycDocumentsEmpty" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/unavailable"/>
+</LinearLayout>

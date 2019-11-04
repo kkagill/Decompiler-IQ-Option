@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="layout/fragment_withdraw_fields_0" android:background="@a/withdraw_white" android:paddingBottom="@dimen/dp16" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@d/withdrawFieldsInsufficientFounds" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16" layout="@e/withdraw_insufficient_founds_layout"/>
+    <LinearLayout android:orientation="vertical" android:id="@d/withdrawFieldsSufficientFounds" android:tag="binding_1" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@d/withdrawFieldsVerifyContainer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:id="@d/withdrawFieldsContainer" android:paddingTop="@dimen/dp4" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/kyc_step_divider" android:showDividers="middle"/>
+        <include android:id="@d/withdrawNoFee" android:visibility="gone" layout="@e/layout_withdraw_no_fee"/>
+        <include android:id="@d/withdrawFee" android:visibility="gone" layout="@e/layout_withdraw_fee"/>
+        <include android:id="@d/withdrawButtonLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp14" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16" layout="@e/withdraw_button_layout"/>
+    </LinearLayout>
+</FrameLayout>

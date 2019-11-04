@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/outside" android:tag="layout/fragment_scrollable_dialog_0" android:background="@color/black_55" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false">
+    <com.iqoption.core.ui.widget.MaxSizeCardViewLayout android:layout_gravity="center" android:id="@+id/frame" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp40" android:soundEffectsEnabled="false" app:cardBackgroundColor="@color/bg_second_level" app:cardCornerRadius="@dimen/dp2" app:cardElevation="24dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp20">
+            <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16">
+                    <TextView android:textSize="@dimen/sp17" android:textColor="@color/white" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" android:lineSpacingExtra="@dimen/sp5" android:fontFamily="@font/medium"/>
+                    <TextView android:textSize="@dimen/sp13" android:textColor="@color/white" android:id="@+id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5" android:lineSpacingExtra="@dimen/sp5" android:fontFamily="@font/medium"/>
+                    <TextView android:textSize="@dimen/sp13" android:textColor="@color/grey_blue_70" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp5" android:lineSpacingExtra="@dimen/sp2"/>
+                </LinearLayout>
+            </ScrollView>
+            <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16">
+                <TextView android:textSize="@dimen/sp16" android:textColor="@color/white" android:id="@+id/negativeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/got_it" android:fontFamily="@font/medium" android:layout_marginEnd="@dimen/dp16" style="@style/IQButton.Transparent"/>
+                <TextView android:textSize="@dimen/sp16" android:textColor="@color/white" android:id="@+id/positiveButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/got_it" android:fontFamily="@font/medium" style="@style/IQButton.Transparent"/>
+                <androidx.core.widget.ContentLoadingProgressBar android:id="@+id/buttonsProgress" android:padding="@dimen/dp5" android:visibility="gone" android:layout_width="@dimen/dp36" android:layout_height="@dimen/dp36" style="?android:attr/progressBarStyleLarge"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.iqoption.core.ui.widget.MaxSizeCardViewLayout>
+</FrameLayout>

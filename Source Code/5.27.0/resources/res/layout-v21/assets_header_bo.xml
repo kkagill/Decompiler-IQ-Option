@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/headerContentBo" android:tag="layout/assets_header_bo_0" android:layout_width="match_parent" android:layout_height="@dimen/dp44">
+    <TextView android:textSize="@dimen/sp10" android:textColor="@color/grey_blue_70" android:id="@+id/sortLabelName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/active" android:textAllCaps="true" android:fontFamily="@font/medium" android:letterSpacing="0.02"/>
+    <ImageView android:id="@+id/sortIndicatorName" android:padding="@dimen/dp3" android:layout_width="wrap_content" android:layout_height="match_parent" app:srcCompat="@drawable/assets_sort_indicator" app:tint="@color/grey_blue_70"/>
+    <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <TextView android:textSize="@dimen/sp10" android:textColor="@color/grey_blue_70" android:id="@+id/sortLabelProfit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profit" android:textAllCaps="true" android:fontFamily="@font/medium" android:letterSpacing="0.02"/>
+    <ImageView android:id="@+id/sortIndicatorProfit" android:padding="@dimen/dp3" android:layout_width="wrap_content" android:layout_height="match_parent" app:srcCompat="@drawable/assets_sort_indicator" app:tint="@color/grey_blue_70"/>
+</LinearLayout>

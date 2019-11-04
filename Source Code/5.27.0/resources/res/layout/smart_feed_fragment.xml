@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/smart_feed_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@e/view_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <androidx.core.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@e/feedProgress" android:layout_width="@dimen/dp48" android:layout_height="@dimen/dp48" style="?android:attr/progressBarStyleLarge"/>
+    <FrameLayout android:id="@e/feedOther" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

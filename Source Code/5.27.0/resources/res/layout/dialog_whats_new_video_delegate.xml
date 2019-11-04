@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/dialog_whats_new_video_delegate_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="center" android:id="@+id/videoVeil" android:tag="binding_1" android:background="@drawable/rect_rounded_8" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/btnPlayVideo" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="center" app:srcCompat="@drawable/ic_play_video_white_50dp"/>
+</FrameLayout>

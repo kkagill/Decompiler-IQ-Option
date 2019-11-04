@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/screen" android:tag="layout/how_to_trade_multi_fragment_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/content" android:layout_width="@dimen/dp173" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp10" android:layout_marginBottom="@dimen/dp10" app:cardBackgroundColor="@color/bg_second_level" app:cardCornerRadius="@dimen/dp4" app:cardElevation="@dimen/dp10" app:cardPreventCornerOverlap="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp10" android:textColor="@color/white" android:id="@+id/title" android:padding="@dimen/dp10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/how_to_trade_multy" android:maxLines="1" android:fontFamily="@font/medium"/>
+            <View android:background="@color/grey_blue_10" android:layout_width="match_parent" android:layout_height="@dimen/separator"/>
+            <TextView android:textSize="@dimen/sp10" android:textColor="@color/grey_blue_70" android:id="@+id/discr" android:padding="@dimen/dp10" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/sp4"/>
+            <TextView android:textSize="@dimen/sp10" android:id="@+id/gotIt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp10" android:layout_marginRight="@dimen/dp10" android:layout_marginBottom="@dimen/dp10" android:text="@string/got_it" style="@k/IQButton_Gray"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

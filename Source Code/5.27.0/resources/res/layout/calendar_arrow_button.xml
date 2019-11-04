@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:tag="layout/calendar_arrow_button_0" android:background="@drawable/bg_circle_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp16" android:minWidth="@dimen/dp56" android:minHeight="@dimen/dp56">
+    <ImageView android:layout_gravity="center" android:id="@+id/calendarListScrollButtonImage" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_arrow_top_grey_blue"/>
+</FrameLayout>

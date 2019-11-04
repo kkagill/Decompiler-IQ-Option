@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/fragment_kyc_governance_0" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sp20" android:textColor="@color/white" android:padding="@dimen/dp16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/how_you_use_trading_account" android:lineSpacingExtra="@dimen/sp8" android:fontFamily="@font/medium"/>
+        <RadioGroup android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatRadioButton android:textSize="@dimen/sp16" android:textColor="@color/grey_blue" android:id="@+id/kycAcceptRisks" android:paddingTop="@dimen/dp16" android:paddingBottom="@dimen/dp18" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp56" android:text="@string/looking_for_high_risk" android:lineSpacingExtra="@dimen/sp8" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16" android:layout_marginStart="@dimen/dp16" app:buttonTint="@color/selector_radio_button"/>
+            <androidx.appcompat.widget.AppCompatRadioButton android:textSize="@dimen/sp16" android:textColor="@color/grey_blue" android:id="@+id/kycNotAcceptRisks" android:paddingTop="@dimen/dp16" android:paddingBottom="@dimen/dp18" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp56" android:text="@string/i_cant_afford_risk" android:lineSpacingExtra="@dimen/sp8" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16" android:layout_marginStart="@dimen/dp16" app:buttonTint="@color/selector_radio_button"/>
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>
